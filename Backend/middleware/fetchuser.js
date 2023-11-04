@@ -1,7 +1,6 @@
 var jwt = require('jsonwebtoken');
-require("dotenv").config();
 
-const JWT_SECRET = process.env.REACT_APP_JWT_SECRET
+const JWT_SECRET = 'SecretStr!ng'
 
 const fetchuser = (req, res, next) => {
 

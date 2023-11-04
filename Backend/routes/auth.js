@@ -8,7 +8,7 @@ var fetchuser = require('../middleware/fetchuser');
 require("dotenv").config();
 
 
-const JWT_SECRET = process.env.REACT_APP_JWT_SECRET
+const JWT_SECRET = 'SecretStr!ng'
 
 
 // ROUTE 1: create a User using POST : "/api/auth/createuser", No login required  

@@ -1,8 +1,7 @@
 const mongoose = require('mongoose');
-require("dotenv").config();
 
 
-const mongoURI = process.env.REACT_APP_mongoURI
+const mongoURI = "mongodb://127.0.0.1:27017/eNotebookDB"
 
 const connectToMongo = async () => {
 
